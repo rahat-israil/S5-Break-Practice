@@ -11,3 +11,16 @@ function DynamicImage() {
 }
 
 export default DynamicImage;
+
+
+
+
+
+let age = 16;
+let hasPermission = true;
+
+if (age >= 18 || hasPermission) {
+    console.log("You are allowed.");
+} else {
+    console.log("You are not allowed.");
+}
