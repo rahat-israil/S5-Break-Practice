@@ -24,3 +24,14 @@ if (age >= 18 || hasPermission) {
 } else {
     console.log("You are not allowed.");
 }
+
+
+
+
+function multiply(num1, num2) {
+    const result = num1 * num2;
+    return result;
+}
+
+const output = multiply(35, 78);
+console.log(output);
