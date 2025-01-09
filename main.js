@@ -35,3 +35,17 @@ function multiply(num1, num2) {
 
 const output = multiply(35, 78);
 console.log(output);
+
+
+
+
+const numbers = [89, 35, 98, 12];
+const student = {
+    name: 'Salib Khan',
+    age: 32,
+    movies: ['king khan', 'Dhakar Mastan']
+};
+
+const about = `My Name is ${student.name} age of ${student.age} has number ${numbers[2]} also liked movies ${student.movies[0]}`;
+
+console.log(about)
