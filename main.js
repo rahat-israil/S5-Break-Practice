@@ -49,3 +49,13 @@ const student = {
 const about = `My Name is ${student.name} age of ${student.age} has number ${numbers[2]} also liked movies ${student.movies[0]}`;
 
 console.log(about)
+
+
+
+
+const age = 18;
+
+// Using Ternary Operator
+const eligibility = age >= 18 ? "Eligible to vote" : "Not eligible to vote";
+
+console.log(eligibility); // Output: Eligible to vote
